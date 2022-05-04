@@ -12,6 +12,7 @@ const Home: NextPage = () => {
 src={'https://image.shutterstock.com/image-photo/batsman-hitting-cricket-ball-tournament-260nw-11474998.jpg'}          // alt={name}
           width={200}
           height={200}
+          priority
         />
     </div>
   )
