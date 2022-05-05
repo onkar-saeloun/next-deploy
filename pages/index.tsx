@@ -10,7 +10,7 @@ const Home: NextPage = () => {
       image with priority
      <Image
           // className={`object-cover border border-solid ${isFounder() ? 'cursor-pointer' : 'cursor-default'} grayscale`}
-src={'https://image.shutterstock.com/image-photo/batsman-hitting-cricket-ball-tournament-260nw-11474998.jpg'}          // alt={name}
+src={'https://media.istockphoto.com/photos/lens-image-dslr-manhattan-downtown-city-new-york-hand-picture-id901169654?b=1&k=20&m=901169654&s=170667a&w=0&h=0SkF_wRuG7RqWhvmV0QM0xpIbZDYXokJMS_oEQs0S9U='}          // alt={name}
           width={200}
           height={200}
           priority
@@ -18,7 +18,7 @@ src={'https://image.shutterstock.com/image-photo/batsman-hitting-cricket-ball-to
         Image without priority
         <Image
           // className={`object-cover border border-solid ${isFounder() ? 'cursor-pointer' : 'cursor-default'} grayscale`}
-src={'https://image.shutterstock.com/image-photo/batsman-hitting-cricket-ball-tournament-260nw-11474998.jpg'}          // alt={name}
+src={'https://media.istockphoto.com/photos/lens-image-dslr-manhattan-downtown-city-new-york-hand-picture-id901169654?b=1&k=20&m=901169654&s=170667a&w=0&h=0SkF_wRuG7RqWhvmV0QM0xpIbZDYXokJMS_oEQs0S9U='}          // alt={name}
           width={200}
           height={200}
         />
