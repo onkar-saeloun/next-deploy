@@ -5,6 +5,9 @@ const nextConfig = {
   images: {
     domains: ['image.shutterstock.com', 'media.istockphoto.com'],
   },
+  env: {
+    ROOT: __dirname,
+  },
 }
 
 module.exports = nextConfig
