@@ -8,7 +8,7 @@ export default function handler(
 ) {
     console.log('__dirname', process.env.ROOT)
     if (req.method === 'POST'){
-        fs.writeFileSync(`${process.env.ROOT}/example.json`, '{"Hello": "World"}'.toString());
+        fs.writeFileSync(`/public/example.json`, '{"Hello": "World"}'.toString());
       }
   res.status(200).json({'message': 'success'});
 };
